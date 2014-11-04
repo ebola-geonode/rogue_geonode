@@ -1,0 +1,18 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+{% block title %} {% trans "About Ebola GeoNode" %} — {{ block.super }} {% endblock %}
+
+{% block body %}
+  <header class="jumbotron subhead" id="overview">
+    <h1>{% trans "About Ebola GeoNode" %}</h1>
+    <p class="lead">{% trans "About Ebola GeoNode." %}</p>
+  </header>
+
+  <p>The Eboal GeoNode is a partnership of multiple organizations to better manage open data for the Ebola Crisis so responding organizations can make more informed decisions.  Key partners include: the American Red Cross, Global Facilitiy for Disaster Reducation and Recovery, and the U.S. Department of State / Humanitarian Information Unit.</p>
+
+  <p>To contact the Ebola GeoNode team, please email ebolageonode[--AT--]gmail.com.</p>
+
+  <p>The Ebola GeoNode is managed by the U.S. Department of State, Humanitarian Information Unit.</p>
+
+{% endblock %}
