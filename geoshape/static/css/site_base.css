@@ -1,0 +1,8 @@
+.hero-unit{
+  background-image: url(http://i.huffpost.com/gen/2097108/thumbs/o-EBOLA-VIRUS-facebook.jpg);
+  overflow: visible;
+  width: 3000px;
+  margin-left: -400px;
+  margin-top: -40px;
+  z-index:0;
+}
