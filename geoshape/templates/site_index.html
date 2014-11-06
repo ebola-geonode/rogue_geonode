@@ -10,12 +10,20 @@ This is where you can override the hero area block. You can simply modify the co
 {% endcomment %}
   {% block hero %}
   <div class="hero-unit">
-    <h1>{% trans "Welcome" %}</h1>
+    <h1>{% trans "Welcome to the Ebola GeoNode" %}</h1>
     <div class="hero-unit-content">
       <div class="intro">
         <p>
           {% blocktrans %}
-            GeoNode is an open source platform for sharing geospatial data and maps.  If you have any questions about the software or service, join our <a href="https://groups.google.com/d/forum/geonode-users">mailing list</a>.
+This is a partnership platform for sharing geospatial data, analysis and maps related to the Ebola emergency response. The platform is intended to minimize the time that GIS analysts spend locating up-to-date data. Users are able to make maps on the fly, view metadata, and access the reports behind GIS layers. Curators are working to ensure that the layers are recent, clean, useful, and legally and technically open. 
+          {% endblocktrans %}
+</p><p>
+          {% blocktrans %}
+<a href='https://groups.google.com/forum/#!forum/ebola-geonode-team'>Join the Mailing List</a>
+          {% endblocktrans %}
+</p><p>
+          {% blocktrans %}
+Access to the website can be obtained via email: <jcrowley@worldbank.org> 
           {% endblocktrans %}
         </p>
         <span>{% trans 'Need help' %} <a href="http://geonode.github.com/workshops/user">{% trans 'Getting Started?' %}</a></span>
