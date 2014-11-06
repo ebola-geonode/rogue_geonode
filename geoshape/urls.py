@@ -5,6 +5,7 @@ from maploom.geonode.urls import urlpatterns as maploom_urls
 urlpatterns = patterns('',
                        (r'^file-service/', include('geoshape.file_service.urls')),
                        (r'^proxy/', 'geoshape.views.proxy'),
+                       (r'^$', 'geonode.views.index', {'template': 'site_index.html'}, name='home'),
                        )
 
 urlpatterns += geonode_url_patterns
