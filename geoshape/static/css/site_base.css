@@ -16,7 +16,7 @@ ul.stats a {
 }
 
 .hero-unit{
-  background-image: url(https://s3.amazonaws.com/ebolageonode-content/ebolageonode_banner.jpg);
+  background-image: url(../img/banner.jpg);
   overflow: visible;
   width: 3000px;
   margin-left: -400px;
@@ -35,16 +35,10 @@ ul.stats a {
 .hero-unit-content > h1 {
   color: white;
   width: 612px; 
-  background-color: #464646;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
 }
-.intro > p {
+.intro {
  color: white;
  text-shadow: 1px 1px #111111;
- background-color: #464646;
- opacity: 0.8;
- filter: alpha(opacity=80);
 }
 
 .intro > span {
@@ -53,7 +47,9 @@ ul.stats a {
 }
 
 footer.footer img {
- margin-right: 150px;
+ margin-right: 10px;
+ max-width: 100px;
+ max-height: 30px;
  vertical-align:middle;
 }
 
