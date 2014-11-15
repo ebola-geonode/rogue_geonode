@@ -58,3 +58,24 @@ footer.footer {
  font-size: 14px;
 }
 
+.about-partner {
+ height: 140px;
+}
+
+.about-partner-left {
+ height:140px;
+ display:inline-block;
+ vertical-align:top;
+}
+
+.about-partner-left img {
+ max-width:100px;
+ height:auto;
+}
+
+.about-partner-right {
+ margin-left:20px;
+ display:inline-block;
+ height:140px;
+ max-width:480px;
+}

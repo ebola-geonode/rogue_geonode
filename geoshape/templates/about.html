@@ -1,0 +1,48 @@
+{% extends "site_base.html" %}
+
+{% load i18n %}
+{% block title %} {% trans "About Ebola GeoNode" %} — {{ block.super }} {% endblock %}
+
+{% block body %}
+  <header class="jumbotron subhead" id="overview">
+    <h1>{% trans "About Ebola GeoNode" %}</h1>
+  </header>
+
+  <p>This is a partnership platform for sharing geospatial data, analysis and maps related to the Ebola emergency response. The platform is intended to minimize the time that GIS analysts spend locating up-to-date data. Users are able to make maps on the fly, view metadata, and access the reports behind GIS layers. Curators are working to ensure that the layers are recent, clean, useful, and legally and technically open.</p>
+  <p>This platform uses the GeoSHAPE build of GeoNode.  See <a href="http://geoshape.org">http://geoshape.org</a> for more information.</p>
+  <p><a href="https://groups.google.com/forum/#!forum/ebola-geonode-users">Request to join the Ebola GeoNode Users mailing list</a></p>
+  <hr/>
+  <h1>Partners</h1>
+  <br>
+  <div class="about-partner">
+    <div class="about-partner-left"><img style="max-width:100px;height:auto;" src="/static/img/arc.png" alt="ARC"></img></div>
+    <div class="about-partner-right">
+      <h3 style="margin-top:0px;"><a href="/groups/group/arc/">American Red Cross, International Services Division</a></h3>
+      The American Red Cross, International Services Division is ...
+    </div>
+  </div>
+  <br>
+  <div class="about-partner">
+    <div class="about-partner-left"><img style="max-width:100px;height:auto;" src="/static/img/gfdrr.png" alt="GFDRR"></img></div>
+    <div class="about-partner-right">
+      <h3 style="margin-top:0px;"><a href="/groups/group/gfdrr/">Global Facility for Disaster Reduction and Recovery</a></h3>
+      The Global Facility for Disaster Reduction and Recovery is ...
+    </div>
+  </div>
+  <br>
+  <div class="about-partner">
+    <div class="about-partner-left"><img style="max-width:100px;height:auto;" src="/static/img/hiu.png" alt="HIU"></img></div>
+    <div class="about-partner-right">
+      <h3 style="margin-top:0px;"><a href="/groups/group/hiu/">Humanitarian Information Unit</a></h3>
+      The U.S. Department of State, Humanitarian Information Unit (DOS/HIU) is providing the geospatial infrastucture for the Ebola GeoNode and associated technical support.  HIU provides information to decision-makers and partners in preparation for and response to humanitarian emergencies worldwide, promotes innovative technologies, and best practices for humanitarian information management.
+    </div>
+  </div>
+  <br>
+  <div class="about-partner">
+    <div class="about-partner-left"><img style="max-width:100px;height:auto;" src="/static/img/unmeer.png" alt="UNMEER"></img></div>
+    <div class="about-partner-right">
+      <h3 style="margin-top:0px;"><a href="/groups/group/unmeer/">UN Mission for Ebola Emergency Response</a></h3>
+      The United Nations Mission for Ebola Emergency Response (UNMEER) is ...
+    </div>
+  </div>
+{% endblock %}
