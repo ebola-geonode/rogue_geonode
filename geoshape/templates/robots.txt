@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /geoserver/
+Disallow: /docs/
+Disallow: /people/
+Disallow: /groups/
+Disallow: /catalogue/
