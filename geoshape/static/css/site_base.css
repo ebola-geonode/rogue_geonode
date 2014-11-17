@@ -15,6 +15,16 @@ ul.stats a {
   -moz-border-top-right-radius: 4px;
 }
 
+.nav-logo {
+    float: left;
+    width: 160px;
+    height: 30px;
+    overflow: hidden;
+    text-indent: -9999em;
+    background: url(../img/ebola-geonode.jpg) no-repeat;
+    margin-bottom: 7px;
+}
+
 .hero-unit{
   background-image: url(../img/banner.jpg);
   overflow: hidden;
