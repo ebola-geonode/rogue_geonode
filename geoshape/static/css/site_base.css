@@ -22,6 +22,7 @@ ul.stats a {
   margin-left: -400px;
   margin-top: -40px;
   z-index:0;
+  background-repeat: no-repeat;
 }
 
 .hero-unit-content {
