@@ -27,5 +27,4 @@ geonode.layers.admin.LayerAdmin.list_display =  (
         'data_quality_statement',
         'license',
         'regions',
-        'keywords'
    )
