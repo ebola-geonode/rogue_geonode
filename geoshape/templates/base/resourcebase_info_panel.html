@@ -7,14 +7,14 @@
   {% if resourcebase.title%}
     <li>
       <strong>{% trans "Title" %}:</strong>
-      {{ resourcebase.title|truncatechars:80 }}
+      {{ resourcebase.title }}
     </li>
   {% endif %}
 
   {% if resourcebase.abstract %}
     <li>
       <strong>{% trans "Abstract" %}:</strong>
-      {{ resourcebase.abstract|escape|urlize|linebreaks|safe|truncatechars:160 }}
+      {{ resourcebase.abstract|escape|urlize|linebreaks|safe }}
     </li>
   {% endif %}
 
