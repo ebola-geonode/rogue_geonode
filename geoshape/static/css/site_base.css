@@ -33,6 +33,7 @@ ul.stats a {
   margin-top: -40px;
   z-index:0;
   background-repeat: no-repeat;
+  background-color: #010109;
 }
 
 .hero-unit-content {
