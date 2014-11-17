@@ -14,3 +14,18 @@ urlpatterns = patterns('',
 
 urlpatterns += geonode_url_patterns
 urlpatterns += maploom_urls
+
+import geonode
+geonode.layers.admin.LayerAdmin.list_display =  (
+        'id',
+        'typename',
+        'service_type',
+        'title',
+        'date',
+        'category',
+        'abstract',
+        'data_quality_statement',
+        'license',
+        'regions',
+        'keywords'
+   )
