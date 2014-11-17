@@ -175,9 +175,9 @@
          <a href="http://www.redcross.org/"><img src="{{ STATIC_URL }}img/arc.png" alt="ARC" /></a>
          <a href="https://www.worldbank.org/"><img src="{{ STATIC_URL }}img/wb-banner.png"  alt="World Bank" /></a>
          <a href="https://www.gfdrr.org/"><img src="{{ STATIC_URL }}img/gfdrr.png"  alt="GFDRR" /></a>
-         <a href="https://hiu.state.gov/Pages/Home.aspx"><img src="{{ STATIC_URL }}img/hiu.png"  alt="HIU" /></a>
+         <a href="https://hiu.state.gov/Pages/Home.aspx"><img src="{{ STATIC_URL }}img/hiu.jpg"  alt="HIU" /></a>
          <a href="http://www.un.org/ebolaresponse/mission.shtml"><img src="{{ STATIC_URL }}img/unmeer.png"  alt="UNMEER" /></a>
-          {% trans "Powered by" %} <a href="http://geoshape.org">{% trans "GeoSHAPE" %}</a> <em>{% trans "version" %} {{ VERSION }}</em> |
+          {% trans "Powered by" %} <a href="http://geoshape.org">{% trans "GeoSHAPE" %}</a></em> |
           <a href="/docs">{% trans "Documentation" %}</a>
         </div>
         <div class="pull-right">
@@ -185,7 +185,6 @@
           {% get_current_language as LANGUAGE %}
           <form class="form-inline" action="/i18n/setlang/" method="post">
           {% csrf_token %}
-            <label>{% trans "Language" %}</label>
             <select class="input span2" name="language" onchange="javascript:form.submit()">
               {% for lang in LANGUAGES %}
               <option value="{{ lang.0 }}" {% ifequal LANGUAGE_CODE lang.0 %} selected="selected"{% endifequal %}>
