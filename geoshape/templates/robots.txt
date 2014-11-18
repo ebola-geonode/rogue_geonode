@@ -9,6 +9,7 @@ Disallow: /comments/
 Disallow: /docs/
 Disallow: /geoserver/
 Disallow: /groups/
+Disallow: /maploom/
 Disallow: /messages/
 Disallow: /people/
 Disallow: /proxy/
